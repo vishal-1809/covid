@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQG2g2iZBEmjU8mB9XCzlo8smKV9OOmfYY85vt9DajGsO3CHOdiA8lWxslpXeGMkfvKPHI&usqp=CAU" sizes="16x16" type="image/png">
+    <link rel="stylesheet" href="style.css">
+    <title>Covid Tracker</title>
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="nav">
+            <input type="text" class="txt" id="txt" placeholder="(e.g : Mumbai)">&nbsp;&nbsp;
+            <button class="search" id="search">Search</button>
+        </div>
+
+    </header>
+    <div class="nsr" id="nsr">
+        No Such Result!
+    </div>
+    <div class="load" id='load'>Loading...</div>
+    <h1 class="heading">Covid Tracker</h1>
+    <div class="whole" id="whole">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th class="col srno" scope="col">Sr No.</th>
+                    <th class="col state" scope="col">State</th>
+                    <th class="col cases" scope="col">Total Cases</th>
+                    <th class="col active-cases" scope="col">Active Cases</th>
+                    <th class="col recover" scope="col">Recover</th>
+                    <th class="col death" scope="col">Death</th>
+                </tr>
+            </thead>
+            <tbody class="list" id="list">
+                <!-- <th class="${t.substring(st, et - 1)} col srno" scope="col">Srno</th>
+                <td class="${t.substring(st, et - 1)} cen">state</td>
+                <td class="${t.substring(st, et - 1)} cen">total cases</td>
+                <td class="${t.substring(st, et - 1)} cen">activecases</td>
+                <td class="${t.substring(st, et - 1)} cen">recover</td>
+                <td class="${t.substring(st, et - 1)} cen">death</td> -->
+            </tbody>
+        </table>
+
+    </div>
+
+    <div class="footer">
+        Covid Tracker
+    </div>
+
+
+</body>
+<script src="index.js"></script>
+
+</html>
