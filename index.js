@@ -1,4 +1,5 @@
-api = 'https://api.covid19india.org/state_district_wise.json';
+// api = 'https://api.covid19india.org/state_district_wise.json';
+api = "https://data.covid19india.org/state_district_wise.json";
 
 
 let districts = [];
